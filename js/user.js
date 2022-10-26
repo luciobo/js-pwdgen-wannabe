@@ -8,7 +8,7 @@ h2NomeUntente.innerHTML = (userName + "" + userSurame)
 
 const paragrafo = document.getElementById ("paragrafo");
 
-paragrafo.innerHTML = (userName + userSurame + userColor + 21)
+paragrafo.innerHTML = `${userName} ${userSurame} ${userColor} 21`
 
 
 
